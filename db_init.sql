@@ -8,7 +8,22 @@ CREATE TABLE pilates_exercise
 (
     name varchar(255) NOT NULL,
     label varchar(255),
-    image varchar(1024), 
+    image varchar(1024),
+    time int,
+    description varchar(255),
+    reps int,
+    isWarmup boolean,
+    isCooldown boolean,
+    step1 varchar(255),
+    step2 varchar(255),
+    step3 varchar(255),
+    step4 varchar(255),
+    step5 varchar(255),
+    step6 varchar(255),
+    step7 varchar(255),
+    step8 varchar(255),
+    step9 varchar(255),
+    step10 varchar(255),
     PRIMARY KEY (name)
 );
 
